@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="doladola_world.css" rel="stylesheet" type="text/css">
+    <title>DODO&LALA</title>
+    <script src="https://kit.fontawesome.com/8e5de37fb2.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav_logo">
+          <i class="fas fa-cat"></i>
+          <a href="#">DOLA World</a>
+        </div>
+
+        <ul class="nav_menu">
+          <li><a href="#">main</a></li>
+          <li><a href="#">profile</a></li>
+          <li><a href="#">video</a></li>
+          <li><a href="#">MD</a></li>
+        </ul>
+
+        <ul class="nav_icons">
+          <li><a href="https://www.instagram.com/doladola_world/?hl=ko" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li id="youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+
+        <a href="#" class="hamburger"><i class="fas fa-bars"></i></a>
+      </nav>
+    </header>
+
+    <div class="contents">
+      
+      <p align="center"><img src="image/home_text2.png" width="80%"></p>
+      <!-- <a href="doladola_world.html"></a> -->
+
+      <div class="notice">
+        <a id="notice_icon" href="#"><i class="fas fa-exclamation-triangle"></i></a>
+        <span id="notice_text">Notice</span>
+        <div class="notice_box">
+          <ul class="notice_item">
+            <li><div><a href="#">공지글1</a></div></li>
+            <li><div><a href="#">공지글2</a></div></li>
+          </ul>
+          <a id="_close" href="#"><i class="fas fa-times"></i></a>
+        </div>
+      </div>
+
+      <div class="profile_box">
+        <ul class="images">
+          <li class="animate glow delay1"><a href=""><img src="image/dodo_profile.jpg" alt="dodo's image"></a></li>
+          <li class="animate glow delay2"><a href=""><img src="image/lala_profile.jpg" alt="lala's image"></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <footer>
+
+    </footer>
+    <script>
+      const youtube = document.getElementById('youtube');
+      youtube.onclick = function () {
+        alert('준비중입니다.');
+      }
+    </script>
+  </body>
+</html>
